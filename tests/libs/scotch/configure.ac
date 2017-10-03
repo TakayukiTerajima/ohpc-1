@@ -17,6 +17,9 @@ else
    AC_MSG_RESULT([no])
 fi
 
+# unset default compilers and detect compiler toolchain from environment
+OHPC_COMPILER_FAMILY
+
 # test compilers
 AC_PROG_CC
 
