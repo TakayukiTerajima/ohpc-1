@@ -38,7 +38,7 @@ else
 fi
 
 # Set subdirectories
-AC_CONFIG_FILES(Makefile tests/Makefile)
+AC_CONFIG_FILES(Makefile tests/Makefile tests/lin/Makefile)
 
 # Configure
 AC_OUTPUT()
